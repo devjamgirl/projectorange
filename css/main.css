@@ -1,0 +1,146 @@
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+nav.header {
+margin:0;
+background-color: #f6820e;
+position:relative;
+
+}
+.navlinks li {
+  display:inline-block;
+  margin-right: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+    display:inline-block;
+    color:white;
+  /*this moved "orangejuice" in the same line as the image*/
+}
+div.topnavright {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;/* this is responsible to making li line up with hr and icon in nav.header*/
+}
+#contact {
+    margin-right: 100px;
+}
+/*to change the color when hovering over links*/
+a:hover {
+    background-color: #cc6600;
+}
+/* have to figure icon*/
+}
+#orangeh1, #orangeh2 {
+    font-weight:100;
+}
+#main {
+    margin-top: 5px;
+    border-color: #F0EFF0;
+    background-color: #F0EFF0;
+    border-radius: 5px;
+    padding-top: 2px;
+    color:#CBC7CD;
+    margin-right: 100px;
+    margin-bottom:70px;
+    float:right;
+    line-height:40px;
+    width:200px;
+}
+body {
+    margin:0px;
+  /* to remove white margin*/
+}
+#orangeicon {
+   width: 60px;
+   height:40px;
+   display:inline-block;
+   padding-top: 0;
+   margin-left: 100px;/*pushes icon and h1 to the right*/
+}
+#orange2 {
+  margin-left: 18%;
+  display: inline-block;
+  position: relative;
+  width: 400px;
+   /*to ensure orange does not cover nav bar when scrolling*/
+  z-index: -1;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  color:#cc6600;
+  font-size: 40px;
+  margin-left: 40px;
+}
+#para {
+  font-weight: lighter;
+}
+#box1 {
+  background-color: #ff8000;
+  height:40px;
+  width:220px;
+  border: none;
+  border-radius: 1px;
+  margin-right: 40px;
+  color: white;
+  font-size: 12px;
+}
+#box2 {
+  background-color: #85E7EB;
+  height:40px;
+  width: 240px;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  font-size: 12px;
+}
+.middle {
+  display: inline-block;
+  margin-left: 500px;
+  margin-bottom: 0px;
+}
+#project {
+  /* to ensure that the image and the paragraph in the same line*/
+  display: inline-block;
+  padding: 0;
+
+}
+#orange1 {
+  position: absolute;
+  /* to ensure orange img does not move*/
+}
+#orange span{
+  font-weight:lighter;
+}
+#orangeh2 span {
+  font-weight:lighter;
+}
+/* to move buttons */
+.box {
+  float:right;
+  margin-top: 0px;
+  margin-right: 235px;
+}
+.fa-search {
+  right:0;
+  position:absolute;
+  margin-right: 105px;
+  margin-top: 20px;
+  color:#afb5bf;
+}
+footer {
+  line-height: 100px;
+  background-color: #85E7EB;
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.fa-instagram, .fa-twitter-square, .fa-facebook-square{
+  margin-right: 20px;
+  color: white;
+  font-size: 30px;
+}
